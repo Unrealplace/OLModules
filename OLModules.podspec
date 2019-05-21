@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'OLModules'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of OLModules.'
+  s.summary          = '公共组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+公共组件库，简单易用。
                        DESC
 
   s.homepage         = 'https://github.com/Unrealplace/OLModules'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Unrealplace' => 'liyang@adnonstop.com' }
+  s.author           = { 'Unrealplace' => '13837196824@163.com' }
   s.source           = { :git => 'https://github.com/Unrealplace/OLModules.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

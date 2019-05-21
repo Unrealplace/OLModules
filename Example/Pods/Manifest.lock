@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - OLModules (0.1.0):
+    - Masonry (~> 1.1.0)
+
+DEPENDENCIES:
+  - OLModules (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  OLModules:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  OLModules: 6231ad21e6fb9ba97f2834641e426c091f555bfd
+
+PODFILE CHECKSUM: a07b6881e7ea53c977087a20d20ae5b0b203b66d
+
+COCOAPODS: 1.5.3

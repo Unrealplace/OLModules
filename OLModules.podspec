@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OLModules'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '公共组件'
 
 # This description is used to generate tags and improve search results.
@@ -41,5 +41,7 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.dependency 'Masonry', '~> 1.1.0'
+  s.dependency 'DZNEmptyDataSet'
+  s.dependency 'MJRefresh'
   
 end

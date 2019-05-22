@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "32D5C34891A715D872F292C487662F24"
+               BlueprintIdentifier = "E9354C952344FB12269F147A43A60E38"
+               BuildableName = "OLModules.framework"
                BlueprintName = "OLModules"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "OLModules.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

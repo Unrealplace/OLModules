@@ -7,6 +7,7 @@
 //
 
 #import "OLViewController.h"
+#import "OLTestViewController.h"
 
 @interface OLViewController ()
 
@@ -17,7 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor blueColor];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    OLTestViewController *test = [OLTestViewController new];
+    [self.navigationController pushViewController:test animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

@@ -23,6 +23,10 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9C8689BB1775ABAA5045A9CE /* Pods_OLModules_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1A6922BB5EF9AEB879C722 /* Pods_OLModules_Example.framework */; };
+		B6CC8FCC22962C7200B593C6 /* OLTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CC8FCB22962C7200B593C6 /* OLTabbar.m */; };
+		B6CC8FCF22962CB800B593C6 /* OLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CC8FCE22962CB800B593C6 /* OLTabBarViewController.m */; };
+		B6CC8FD222962CF700B593C6 /* OLTabbarWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CC8FD122962CF700B593C6 /* OLTabbarWrapper.m */; };
+		B6CC8FD522962D2700B593C6 /* OLTabbarWrapperContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CC8FD422962D2700B593C6 /* OLTabbarWrapperContentView.m */; };
 		B6FD52DC2294EB21002F3726 /* OLNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD52CF2294EB20002F3726 /* OLNavigationBar.m */; };
 		B6FD52DE2294EB21002F3726 /* OLBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD52D52294EB20002F3726 /* OLBaseTableViewCell.m */; };
 		B6FD52DF2294EB21002F3726 /* UIView+OLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD52D82294EB21002F3726 /* UIView+OLExtension.m */; };
@@ -72,6 +76,14 @@
 		84369D807954E0AFD435B5F7 /* Pods-OLModules_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLModules_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OLModules_Tests/Pods-OLModules_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3E3D6D5E56D55EC1B53C1E5 /* Pods-OLModules_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLModules_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OLModules_Example/Pods-OLModules_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B6CC8FCA22962C7200B593C6 /* OLTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLTabbar.h; sourceTree = "<group>"; };
+		B6CC8FCB22962C7200B593C6 /* OLTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLTabbar.m; sourceTree = "<group>"; };
+		B6CC8FCD22962CB800B593C6 /* OLTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLTabBarViewController.h; sourceTree = "<group>"; };
+		B6CC8FCE22962CB800B593C6 /* OLTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLTabBarViewController.m; sourceTree = "<group>"; };
+		B6CC8FD022962CF700B593C6 /* OLTabbarWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLTabbarWrapper.h; sourceTree = "<group>"; };
+		B6CC8FD122962CF700B593C6 /* OLTabbarWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLTabbarWrapper.m; sourceTree = "<group>"; };
+		B6CC8FD322962D2700B593C6 /* OLTabbarWrapperContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLTabbarWrapperContentView.h; sourceTree = "<group>"; };
+		B6CC8FD422962D2700B593C6 /* OLTabbarWrapperContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLTabbarWrapperContentView.m; sourceTree = "<group>"; };
 		B6FD52CF2294EB20002F3726 /* OLNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLNavigationBar.m; sourceTree = "<group>"; };
 		B6FD52D02294EB20002F3726 /* OLNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLNavigationBar.h; sourceTree = "<group>"; };
 		B6FD52D22294EB20002F3726 /* OLBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLBaseTableViewCell.h; sourceTree = "<group>"; };
@@ -233,6 +245,14 @@
 				B6FD52CF2294EB20002F3726 /* OLNavigationBar.m */,
 				B6FD52D62294EB21002F3726 /* OLNavigationBarButton.h */,
 				B6FD52D92294EB21002F3726 /* OLNavigationBarButton.m */,
+				B6CC8FCA22962C7200B593C6 /* OLTabbar.h */,
+				B6CC8FCB22962C7200B593C6 /* OLTabbar.m */,
+				B6CC8FCD22962CB800B593C6 /* OLTabBarViewController.h */,
+				B6CC8FCE22962CB800B593C6 /* OLTabBarViewController.m */,
+				B6CC8FD022962CF700B593C6 /* OLTabbarWrapper.h */,
+				B6CC8FD122962CF700B593C6 /* OLTabbarWrapper.m */,
+				B6CC8FD322962D2700B593C6 /* OLTabbarWrapperContentView.h */,
+				B6CC8FD422962D2700B593C6 /* OLTabbarWrapperContentView.m */,
 				B6FD52D72294EB21002F3726 /* OLCommonHeader.h */,
 				B6FD52D42294EB20002F3726 /* UIView+OLExtension.h */,
 				B6FD52D82294EB21002F3726 /* UIView+OLExtension.m */,
@@ -420,12 +440,16 @@
 				6003F59E195388D20070C39A /* OLAppDelegate.m in Sources */,
 				B6FD52ED229576F0002F3726 /* OLBaseView.m in Sources */,
 				B6FD52DC2294EB21002F3726 /* OLNavigationBar.m in Sources */,
+				B6CC8FD222962CF700B593C6 /* OLTabbarWrapper.m in Sources */,
+				B6CC8FD522962D2700B593C6 /* OLTabbarWrapperContentView.m in Sources */,
 				6003F5A7195388D20070C39A /* OLViewController.m in Sources */,
 				B6FD52E72294ECC4002F3726 /* OLTestViewController.m in Sources */,
 				B6FD52DF2294EB21002F3726 /* UIView+OLExtension.m in Sources */,
+				B6CC8FCF22962CB800B593C6 /* OLTabBarViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				B6FD52E42294EB98002F3726 /* OLBaseViewController.m in Sources */,
 				B6FD52E02294EB21002F3726 /* OLNavigationBarButton.m in Sources */,
+				B6CC8FCC22962C7200B593C6 /* OLTabbar.m in Sources */,
 				B6FD52DE2294EB21002F3726 /* OLBaseTableViewCell.m in Sources */,
 				B6FD52EA2295687F002F3726 /* OLBaseTableViewController.m in Sources */,
 			);

@@ -8,7 +8,7 @@
 
 #import "OLBaseTableViewController.h"
 #import "OLCommonHeader.h"
-#import <MJRefresh.h>
+#import "MJRefresh.h"
 
 static CGFloat const kCellHeight = 45.0;
 

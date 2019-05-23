@@ -17,6 +17,10 @@
 #import "OLCommonHeader.h"
 #import "OLNavigationBar.h"
 #import "OLNavigationBarButton.h"
+#import "OLTabbar.h"
+#import "OLTabBarViewController.h"
+#import "OLTabbarWrapper.h"
+#import "OLTabbarWrapperContentView.h"
 #import "UIView+OLExtension.h"
 
 FOUNDATION_EXPORT double OLModulesVersionNumber;

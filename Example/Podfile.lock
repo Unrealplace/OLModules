@@ -2,7 +2,7 @@ PODS:
   - DZNEmptyDataSet (1.8.1)
   - Masonry (1.1.0)
   - MJRefresh (3.2.0)
-  - OLModules (0.1.1):
+  - OLModules (0.1.2):
     - DZNEmptyDataSet
     - Masonry (~> 1.1.0)
     - MJRefresh
@@ -24,7 +24,7 @@ SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
-  OLModules: 7eaaca5fecce223c7b02bc8ef8599811ee8439b2
+  OLModules: 58784699a49186146cbd643132374aa23283ff57
 
 PODFILE CHECKSUM: a07b6881e7ea53c977087a20d20ae5b0b203b66d
 
